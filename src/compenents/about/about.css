@@ -1,0 +1,143 @@
+
+@import "../../app.css";
+.a{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background:var(--secondary-color);
+    position: relative;
+}
+.a-banner{
+    width: 100%;
+    height: 60px;
+    background: var(--primary-color);
+    position: absolute;
+    top: 0;
+    border-radius: 0 20px 0 20px;
+}
+.a-banner-corner{
+    height: 40px;
+    width: 40px;
+    background: transparent;
+    border-radius: 0 20px 0 0px;
+    position: absolute;
+    top: 60px;
+    right: 60px;
+    box-shadow: 0px -20px 0px 0px var(--primary-color);
+}
+/* .a:after{
+    content: "";
+    height: 40px;
+    width: 40px;
+    background: transparent;
+    border-radius: 0 0 0 20px;
+    position: absolute;
+    top: -40px;
+    left: 60px;
+    box-shadow: -20px 0px 0px 0px var(--primary-color);
+} */
+.a-left{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-top: 120px;
+    margin-left: 30px;
+}
+.a-img-bg{
+    position: absolute;
+    left: 5%;
+    top: -50px;
+    background: var(--primary-color);
+    width: 60%;
+    height: 80vh;
+    border-radius: 10%;
+}
+.a-img{
+    width:60%;
+    height: 80vh;
+    position: inherit;
+    border-radius: 10%;
+    object-fit: cover;
+}
+.a-right{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.a-title{
+    width: 90%;
+
+    font-size: 50px;
+    font-weight: 500;
+    text-align: center;
+    color: var(--primary-color);
+    margin-bottom: 40px;
+}
+
+.a-intro{
+    font-size: 30px;
+    font-weight: 300;
+    color:var(--text-color);
+    margin-bottom: 20px;
+    width: 90%;
+
+}
+
+.a-desc{
+    font-size: 20px;
+    font-weight: 200;
+    color: var(--text-color);
+    margin-bottom: 20px;
+    width: 90%;
+
+}
+
+.a-diploms{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 90%;
+}
+
+.a-diplom{
+    display: flex;
+    height: 80px;
+    width: 100%;
+}
+
+.a-diplom-img{
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+.a-doplom-desc{
+    color: var(--text-color);
+}
+
+.a-banner-left{
+    position: absolute;
+    width: 60px;
+    height: 100%;
+    background: var(--primary-color);
+    right: 0;
+    border-radius: 0 20px 0 0;
+}
+/* .a:before{
+    content: "";
+    height: 40px;
+    width: 40px;
+    background: transparent;
+    border-radius: 0 20px 0 0px;
+    position: absolute;
+    top: 60px;
+    right: 60px;
+    box-shadow: 0px -20px 0px 0px var(--primary-color);
+} */

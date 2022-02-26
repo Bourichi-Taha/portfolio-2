@@ -1,0 +1,80 @@
+@import "../../app.css";
+.pl{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    background:var(--secondary-color);
+}
+.pl:after{
+    content: "";
+    height: 40px;
+    width: 40px;
+    background: transparent;
+    border-radius: 0 0px 20px 0px;
+    position: absolute;
+    top: -40px;
+    right: 60px;
+    box-shadow: 20px 0 0 0 var(--primary-color);
+}
+/* .pl:before{
+    content: "";
+    height: 40px;
+    width: 40px;
+    background: transparent;
+    border-radius: 20px 0px 0 0px;
+    position: absolute;
+    top: 60px;
+    left: 60px;
+    box-shadow: 0px -20px 0px 0px var(--primary-color);
+} */
+.pl-banner{
+    position: absolute;
+    height: 60px;
+    width: 100%;
+    background: var(--primary-color);
+    top: 0;
+    right: 0;
+    border-radius: 20px 0 20px 0px;
+}
+.pl-banner-corner{
+    height: 40px;
+    width: 40px;
+    background: transparent;
+    border-radius: 20px 0px 0 0px;
+    position: absolute;
+    top: 60px;
+    left: 60px;
+    box-shadow: 0px -20px 0px 0px var(--primary-color);
+}
+.pl-banner-left{
+    position: absolute;
+    height: 100vh;
+    width: 60px;
+    background: var(--primary-color);
+    top: 0;
+    left: 0;
+    border-radius: 20px 0 0px 0px;
+}
+.pl-title{
+    font-size: 60px;
+    font-weight: 500;
+    color: var(--primary-color);
+    margin-bottom: 30px;
+    margin-top: 90px;
+}
+
+.pl-desc{
+    font-size: 20px;
+    color: var(--text-color);
+    font-weight: 300;
+    width: 70%;
+}
+.pl-container{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}

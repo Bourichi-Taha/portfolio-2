@@ -1,0 +1,42 @@
+@import "../../app.css";
+.pi{
+    width: 30%;
+    height: 30vh;
+    margin-top: 30px;
+}
+
+.pi-banner{
+    width: 100%;
+    height: 2vh;
+    border: 1px solid var(--primary-color);
+    border-radius: 10px 10px 0 0 ;
+    background: var(--primary-color);
+
+}
+.pi-banner-circle{
+    height: 1vh;
+    width: 1vh;
+    border-radius: 50%;
+    background: lightgrey;
+    margin: 0 10px;
+    float: right;
+    margin-top: 0.5vh;
+}
+.pi-img-container{
+    width: 100%;
+    height: 29vh;
+    overflow: hidden;
+    border: 1px solid lightgrey;
+
+}
+.pi-img{
+    width: 100%;
+    object-fit: contain;
+    transition: all 12s ease-in;
+
+}
+
+.pi:hover .pi-img{
+    cursor: pointer;
+    transform: translateY(-87%);
+}
